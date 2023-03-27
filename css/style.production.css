@@ -15,6 +15,7 @@ Secondary Color: #f5efd9
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #edf7f6;
 }
 
 body {
