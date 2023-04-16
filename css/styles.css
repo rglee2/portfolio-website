@@ -170,7 +170,7 @@ div {
   }
  }
 
- @media all and (max-width: 500px) {
+@media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
   }
@@ -242,4 +242,18 @@ div {
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  min-width: 75px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
 }
